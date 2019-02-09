@@ -1,0 +1,20 @@
+def spam1 ():
+
+    def spam2():
+
+        def spam3():
+            z =" evn more spam"
+            return z
+
+        y = " more spam"
+        y += spam3()
+        return y
+
+    x = "spam"
+    x += spam2()
+    return x
+
+print(spam1())
+
+#Output   courtesy of Buchalka class  just added the word
+#spam more spam even more spam
